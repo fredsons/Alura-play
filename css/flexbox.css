@@ -11,6 +11,25 @@
   display: none;
 }
 
+/* MENU CONTAINER */
+.menu__container {
+  bottom: 0%;
+  height: 74px;
+  position: fixed;
+  width: 100%;
+}
+
+/* MENU LISTA */
+.menu__lista {
+  display: flex;
+}
+
+.menu__lista:nth-child(2),
+.menu__lista:nth-child(3),
+.menu__lista:nth-child(4) {
+  display: none;
+}
+
 /* SECAO SUPERIOR */
 .superior__secao__container {
   align-items: center;
