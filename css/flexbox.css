@@ -11,6 +11,15 @@
   display: none;
 }
 
+/* SECAO SUPERIOR */
+.superior__secao__container {
+  align-items: center;
+  display: flex;
+  gap: 15px;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
 /* RODAPE */
 .rodape__container {
   display: flex;
